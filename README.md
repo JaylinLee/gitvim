@@ -11,10 +11,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ## Then
 
 - git clone https://github.com/JaylinLee/gitvim.git
-- Copy vimrc to ~ and rename it to .vimrc
+- cp vimrc ~/.vimrc
 - vim .vimrc
 - :source ~/.vimrc
-- PlugInstall
+- :PlugInstall
 - :qa
 
 ## Then all things' done.
